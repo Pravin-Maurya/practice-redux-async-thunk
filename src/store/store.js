@@ -15,7 +15,7 @@ const customizedMiddleware = getDefaultMiddleware({
 
 const store = configureStore({
   reducer,
-  // devTools: true,
+  devTools: true,
   customizedMiddleware,
 });
 
